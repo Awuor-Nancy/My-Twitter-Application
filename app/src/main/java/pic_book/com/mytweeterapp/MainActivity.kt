@@ -18,19 +18,19 @@ class MainActivity : AppCompatActivity() {
 
     fun displayTweets() {
         var tweet1 =
-            TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", "I love tweeting","23","12k","1k","","","","")
+            TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", " ","23","12k","1k","","","","")
 
         var tweet2 =
-            TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", "I love tweeting","23","12k","1k","","","","")
+            TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", " ","23","12k","1k","","","","")
 
         var tweet3 =
-        TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", "I love tweeting","23","12k","1k","","","","")
+        TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", " ","23","12k","1k","","","","")
 
         var tweet4 =
-        TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", "I love tweeting","23","12k","1k","","","","")
+        TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", " ","23","12k","1k","","","","")
 
         var tweet5 =
-        TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", "I love tweeting","23","12k","1k","","","","")
+        TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", " ","23","12k","1k","","","","")
 
 
     var tweetList =
