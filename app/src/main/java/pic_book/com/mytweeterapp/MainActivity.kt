@@ -32,9 +32,13 @@ class MainActivity : AppCompatActivity() {
         var tweet5 =
         TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", " ","23","12k","1k","","","","")
 
+        var tweet6 =
+            TwitterListItem("Nancy Awuor", "Nancy Awuor", "nancvida@254", "12h", " ","23","12k","1k","","","","")
 
-    var tweetList =
-        listOf(tweet1, tweet2, tweet3, tweet4, tweet5)
+
+
+        var tweetList =
+        listOf(tweet1, tweet2, tweet3, tweet4, tweet5,tweet6)
     var contactAdapter = TwitterAdapter(tweetList)
     binding.rvTweet.layoutManager = LinearLayoutManager(this)
     binding.rvTweet.adapter = contactAdapter

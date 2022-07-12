@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cvTweet"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="#C85A5A"
     android:backgroundTint="#000000">
 
@@ -31,7 +31,7 @@
             android:id="@+id/tvHandle4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="24dp"
             android:text="@string/mundu_joan11"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
@@ -71,10 +71,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="24dp"
             android:layout_marginEnd="20dp"
             android:text="Munduru Joana"
-            android:textColor="#C51162"
+            android:textColor="#F3F3F3"
             android:textSize="12sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/tvTime4"
@@ -151,6 +151,7 @@
             android:id="@+id/ivUser1"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginStart="5dp"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.06"
@@ -189,7 +190,7 @@
             android:id="@+id/ivUser4"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             app:layout_constraintEnd_toStartOf="@+id/tvComments4"
             app:layout_constraintStart_toStartOf="parent"
@@ -215,7 +216,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="23dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="24dp"
             android:layout_marginEnd="36dp"
             android:text="@string/_1h"
             android:textColor="#2962FF"
@@ -330,6 +331,7 @@
             android:id="@+id/ivUser2"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginStart="5dp"
             android:layout_marginTop="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.06"
@@ -352,7 +354,7 @@
             android:id="@+id/tvComments3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="40dp"
             android:text="@string/welcome_to_the_on_demand_webinar_quot_postgresql_database_design_best_practices_quot_by_jobin_augustine_and_19_years_of_experience"
@@ -454,7 +456,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="24dp"
             android:text="@string/jeruto_sang"
             android:textColor="#FFFFFF"
             android:textColorLink="#000000"
@@ -506,6 +508,7 @@
             android:id="@+id/ivUser3"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginStart="5dp"
             android:layout_marginTop="20dp"
             app:layout_constraintEnd_toStartOf="@+id/ivIcon9"
             app:layout_constraintStart_toStartOf="parent"
@@ -530,7 +533,7 @@
             android:id="@+id/tvHandle2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="24dp"
             android:text="@string/sangjeru_212"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
@@ -557,7 +560,7 @@
             android:id="@+id/tvTime4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="24dp"
             android:text="43 min"
             android:textColor="#2962FF"
             android:textSize="11sp"
@@ -631,6 +634,322 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/ivIcon11"
             app:layout_constraintTop_toBottomOf="@+id/tvComments3" />
+
+        <ImageView
+            android:id="@+id/ivUser5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/tvName5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivIcon13"
+            app:srcCompat="@drawable/pretty" />
+
+        <TextView
+            android:id="@+id/tvName5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            android:text="Anelissa Kendy"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/tvTime5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivUser5"
+            app:layout_constraintTop_toBottomOf="@+id/ivIcon14" />
+
+        <TextView
+            android:id="@+id/tvHandle5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="kendy@anelissa"
+            android:textColor="#C51162"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvTime5"
+            app:layout_constraintTop_toBottomOf="@+id/ivIcon16" />
+
+        <TextView
+            android:id="@+id/tvTime5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="1h"
+            android:textColor="#2962FF"
+            android:textColorHint="#2962FF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/tvHandle5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvName5"
+            app:layout_constraintTop_toBottomOf="@+id/ivIcon15" />
+
+        <TextView
+            android:id="@+id/tvComments5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:text="One of my objectives is to keep updated with the latest IT trends and technologies. I am confident that I can be a useful talent to the company if given the opportunity."
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivUser5"
+            app:layout_constraintTop_toBottomOf="@+id/tvName5" />
+
+        <TextView
+            android:id="@+id/tvName6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="24dp"
+            android:text="Anisha Baby"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/tvTime6"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivUser6"
+            app:layout_constraintTop_toBottomOf="@+id/ivIcon19" />
+
+        <TextView
+            android:id="@+id/tvTime6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="10h"
+            android:textColor="#2962FF"
+            android:textColorHint="#2962FF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/tvHandle6"
+            app:layout_constraintStart_toEndOf="@+id/tvName6"
+            app:layout_constraintTop_toBottomOf="@+id/ivIcon19" />
+
+        <TextView
+            android:id="@+id/tvHandle6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Anisha@321"
+            android:textColor="#C51162"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvTime6"
+            app:layout_constraintTop_toBottomOf="@+id/ivIcon20" />
+
+        <TextView
+            android:id="@+id/tvComments6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:text="One of my objectives is to keep updated with the latest IT trends and technologies. I am confident that I can be a useful talent to the company if given the opportunity."
+            android:textColor="#2962FF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/ivUser5"
+            app:layout_constraintTop_toBottomOf="@+id/tvName6" />
+
+        <ImageView
+            android:id="@+id/ivUser6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toStartOf="@+id/tvName6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivUser5"
+            app:srcCompat="@drawable/dog" />
+
+        <ImageView
+            android:id="@+id/ivIcon17"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView13"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivUser5"
+            app:srcCompat="@drawable/ic_baseline_textsms_24" />
+
+        <ImageView
+            android:id="@+id/ivIcon18"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView14"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments5"
+            app:srcCompat="@drawable/ic_baseline_repeat_24" />
+
+        <ImageView
+            android:id="@+id/ivIcon19"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView15"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments5"
+            app:srcCompat="@drawable/ic_baseline_favorite_24" />
+
+        <ImageView
+            android:id="@+id/ivIcon20"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments5"
+            app:srcCompat="@drawable/ic_baseline_ios_share_24" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="100"
+            android:textColor="#2962FF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ivIcon19"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivIcon18"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments5" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="30k"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ivIcon20"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivIcon19"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments5" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="212"
+            android:textColor="#2962FF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ivIcon18"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivIcon17"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments5" />
+
+        <ImageView
+            android:id="@+id/ivIcon21"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView16"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivUser6"
+            app:srcCompat="@drawable/ic_baseline_textsms_24" />
+
+        <ImageView
+            android:id="@+id/ivIcon22"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView17"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments6"
+            app:srcCompat="@drawable/ic_baseline_repeat_24" />
+
+        <ImageView
+            android:id="@+id/ivIcon23"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView18"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView17"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments6"
+            app:srcCompat="@drawable/ic_baseline_favorite_24" />
+
+        <ImageView
+            android:id="@+id/ivIcon24"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments6"
+            app:srcCompat="@drawable/ic_baseline_ios_share_24" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="200"
+            android:textColor="#2962FF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ivIcon23"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivIcon22"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments6" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="500"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ivIcon22"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivIcon21"
+            app:layout_constraintTop_toBottomOf="@+id/ivUser6" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="4k"
+            android:textColor="#F8F8F8"
+            android:textColorHint="#C51162"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ivIcon24"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivIcon23"
+            app:layout_constraintTop_toBottomOf="@+id/tvComments6" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

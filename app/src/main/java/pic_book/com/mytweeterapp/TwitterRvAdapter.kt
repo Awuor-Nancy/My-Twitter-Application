@@ -24,21 +24,6 @@ class TwitterAdapter(var tweetList: List<TwitterListItem>):
             holder.tvView1.text=currentTweet.view1
             holder.tvView2.text=currentTweet.view2
             holder.tvView3.text=currentTweet.view3
-//
-//            holder.tvName2.text=currentTweet.name2
-//            holder.tvHandle2.text=currentTweet.handle2
-//            holder.tvComments2.text=currentTweet.comments2
-//            holder.tvTime2.text=currentTweet.time2
-//
-//            holder.tvName3.text=currentTweet.name3
-//            holder.tvHandle3.text=currentTweet.handle3
-//            holder.tvComments3.text=currentTweet.comments3
-//            holder.tvTime3.text=currentTweet.time3
-//
-//            holder.tvName4.text=currentTweet.name4
-//            holder.tvHandle4.text=currentTweet.handle4
-//            holder.tvComments4.text=currentTweet.comments4
-//            holder.tvTime4.text=currentTweet.time4
 
         }
 
@@ -98,5 +83,31 @@ class TweetsViewHolder (itemView: View):
     var ivIcon15 = itemView.findViewById<ImageView>(R.id.ivIcon15)
     var ivIcon16 = itemView.findViewById<ImageView>(R.id.ivIcon16)
 
-        }
+
+    var user5 = itemView.findViewById<ImageView>(R.id.ivUser5)
+    var tvName5 = itemView.findViewById<TextView>(R.id.tvName5)
+    var tvHandle5 = itemView.findViewById<TextView>(R.id.tvHandle5)
+    var tvComments5 = itemView.findViewById<TextView>(R.id.tvComments5)
+    var tvTime5 = itemView.findViewById<TextView>(R.id.tvTime5)
+
+    var ivIcon17 = itemView.findViewById<ImageView>(R.id.ivIcon17)
+    var ivIcon18 = itemView.findViewById<ImageView>(R.id.ivIcon18)
+    var ivIcon19 = itemView.findViewById<ImageView>(R.id.ivIcon19)
+    var ivIcon20 = itemView.findViewById<ImageView>(R.id.ivIcon20)
+
+
+
+    var user6 = itemView.findViewById<ImageView>(R.id.ivUser6)
+    var tvName6 = itemView.findViewById<TextView>(R.id.tvName6)
+    var tvHandle6 = itemView.findViewById<TextView>(R.id.tvHandle6)
+    var tvComments6 = itemView.findViewById<TextView>(R.id.tvComments6)
+    var tvTime6 = itemView.findViewById<TextView>(R.id.tvTime6)
+
+    var ivIcon21 = itemView.findViewById<ImageView>(R.id.ivIcon21)
+    var ivIcon22 = itemView.findViewById<ImageView>(R.id.ivIcon22)
+    var ivIcon23 = itemView.findViewById<ImageView>(R.id.ivIcon23)
+    var ivIcon24 = itemView.findViewById<ImageView>(R.id.ivIcon24)
+
+
+}
 
